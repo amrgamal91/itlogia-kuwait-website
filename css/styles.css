@@ -54,8 +54,8 @@ a:hover {
   */
   background: 
  /* top, transparent red, faked with gradient */ linear-gradient(
-      rgba(0, 0, 0, 0.45),
-      rgba(0, 0, 0, 0.45)
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
     ),
     /* bottom, image */ url(../images/2.jpg);
   background-size: cover;
@@ -143,6 +143,44 @@ a:hover {
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
 }
+.services-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.cover-5 {
+  /* background: #f7f7f8;
+  min-height: 40rem;
+  height: auto;
+  border-radius: 0;
+  width: 100%;
+  color: #333;
+  padding-top: 1rem; */
+  position: relative;
+}
+.cover-5 a.navbar-brand {
+  color: #000 !important;
+}
+.cover-5 h1 {
+  color: #000;
+  font-weight: 200;
+}
+.cover-5 p.lead {
+  margin: 2rem auto;
+  color: #696b6e;
+  font-family: "Droid Serif", Times, Georgia, serif;
+  font-style: italic;
+}
+.cover-5 .cover-container {
+  display: table;
+  height: 100%;
+  min-height: 34rem;
+  margin: 0 auto;
+}
+.cover-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
 .first-section {
   background-color: #eeeeee;
   padding: 4rem;
@@ -152,7 +190,7 @@ a:hover {
 }
 .third-section {
   background-color: #151f20;
-  padding: 3rem;
+  padding: 1rem;
   color: #fff;
 }
 .fourth-section {
@@ -174,6 +212,11 @@ a:hover {
 .customerImage {
   padding: 1rem;
 }
+.customers-section-title {
+  text-align: center;
+  padding: 1rem;
+}
+
 /* ---------------------------- end of customers section -------------------------- */
 
 /* ---------------------------- partners section --------------------------------- */
@@ -283,7 +326,7 @@ a:hover {
   border-radius: 50%;
 }
 .footer {
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   width: 100%;
 }
