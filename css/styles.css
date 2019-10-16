@@ -267,14 +267,20 @@ a:hover {
   background-color: #eeeeee;
   padding: 3rem;
 }
+.aboutSection {
+  background-color: #e4e9ec;
+}
 .aboutBanner {
   background-color: #2d688e;
-  padding: 2.5rem;
+  padding: 0.7rem;
   color: #fff;
+}
+.aboutBanner > h1 {
+  padding-left: 6rem;
 }
 .aboutDetails {
   padding: 3rem;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   text-align: left;
 }
 
@@ -335,13 +341,6 @@ a:hover {
   padding: 0.5rem;
 }
 
-.heading-title {
-  text-align: center;
-  margin: 0 auto;
-  font-size: 3em;
-  color: #fff;
-}
-
 .custom-button {
   width: 100%;
   color: #fff;
@@ -352,9 +351,9 @@ a:hover {
 }
 
 .form-box-inner .form-control {
-  background: #ffffff8a;
-  border: 2px solid #ffffff8a;
-  box-shadow: none;
+  /* background: #ffffff8a; */
+  /* border: 2px solid #ffffff8a; */
+  /* box-shadow: none; */
 }
 .form-box-inner .form-control:focus {
   outline: none;
@@ -372,9 +371,11 @@ a:hover {
   text-align: center;
 }
 .contact-box {
-  background: #ffffff8a;
-  height: 365px;
-  padding: 15px;
+  /* background: #ffffff8a; */
+  align-items: center;
+  justify-content: center;
+  /* height: 365px;
+  padding: 15px; */
 }
 .contact-box ul li {
   margin-bottom: 0px;
@@ -399,13 +400,33 @@ a:hover {
   border: 2px solid #eeeeee;
   border-radius: 50%;
 }
+.heading-title {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.8em;
+  color: #000;
+}
+
 .footer {
   /* position: fixed; */
+  background-color: #f5f5f5;
   bottom: 0;
   width: 100%;
 }
 .footer a {
   color: #78828d;
+}
+.footer-copy {
+  background-color: #f5f5f5;
+  padding: 0.7rem;
+  justify-content: center;
+  align-items: center;
+}
+.footer-head {
+  /* background-color: #fafafa; */
+  padding-top: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 /* ---------------------------------- end of footer ------------------------------*/
 
