@@ -289,7 +289,19 @@ a:hover {
   background-color: #fafafa;
 }
 .customerImage {
-  padding: 1rem;
+  display: block;
+
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  margin: 5px;
+  border: solid 1px #bdbdbd;
+  padding: 0.3rem;
+  object-fit: contain;
+  object-position: center right;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  /* padding: 1rem; */
   /* border-radius: 80%; */
 }
 .customers-section-title {
@@ -312,17 +324,34 @@ a:hover {
   justify-content: center;
   padding: 1rem;
 }
-.imgdiv {
-  width: 100%;
-  height: 120px;
-  margin: 0 auto;
-  /* border: solid 1px #eeeeee;
-  border-radius: 5px; */
+.partnerImage {
+  display: block;
+
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: 5px;
+  border: solid 2px #78828d;
+  padding: 0.3rem;
+  object-fit: contain;
+  object-position: center right;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  /* padding: 1rem; */
+  /* border-radius: 80%; */
 }
-.imgdiv img {
+.imgdiv {
+  /* width: 100%; */
+  /* height: 120px; */
+  /* margin: 0 auto;
+  border: solid 1px #eeeeee;
+  border-radius: 50%; */
+  /* padding: 100px; */
+}
+/* .imgdiv img {
   width: 100%;
   height: 100%;
-}
+} */
 
 /* ---------------------------- end of partners section -------------------------- */
 
