@@ -86,6 +86,25 @@ a:hover {
   .page-header {
     background: var(--red);
   }
+  .navbar {
+    max-height: 65px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media screen and (max-width: 650 px) {
+  .navbar {
+    max-height: 65px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+@media screen and (min-width: 400px) {
+  .navbar {
+    max-height: 65px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 /* banner section */
 .home {
@@ -128,8 +147,8 @@ a:hover {
 }
 .navbar {
   max-height: 65px;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  /* padding-left: 5rem;
+  padding-right: 5rem; */
 }
 .navbar .navbar-brand img {
   max-height: 50px;
